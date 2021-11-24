@@ -4636,9 +4636,9 @@ end,nil)
 end,nil)
 end 
 if text == "مبرمج السورس" or text == "مطور السورس" or text == "المبرمج" then 
-Text = "• *The developer and programmer of this source is* : [MaLaTH Al DleM](https://t.me/XIIISI)."
+Text = "• *The developer and programmer of this source is* : [ᴀʟᴀᴇᴀ ᴀℓɪ](https://t.me/XIIISI)."
 keyboard = {} 
-keyboard.inline_keyboard = {{{text='- 𝗆𝖺𝗅𝖺𝗍𝗁 𝖺𝗅 𝖽𝗅𝖾𝗆 .',url="t.me/XIIISI"}}}
+ᴀʟᴀᴇᴀ ᴀℓɪ .',url="t.me/XIIISI"}}}
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id='..msg.chat_id_..'&photo=https://t.me/XIIISI&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 return false
